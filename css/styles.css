@@ -54,9 +54,7 @@ body {
 
   color: #2e2f42;
 }
-.header-item:hover {
-  color: #404bbf;
-}
+.header-item:hover,
 .header-item:focus {
   color: #404bbf;
 }
@@ -70,13 +68,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-mail:hover {
+.header-mail:hover,
+.header-mail:focus {
   color: #404bbf;
 }
-.header-mail:focus {
-  color: #404bbf;}
 
- 
 /*секція2*/
 
 .vision {
@@ -140,143 +136,171 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.vision-btn:hover {
-  color: #404bbf;
-}
+.vision-btn:hover,
 .vision-btn:focus {
   color: #404bbf;
 }
 /*секція 3*/
-.benefits {}
+.benefits {
+}
 
-.benefits-titl {font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    /* identical to box height, or 111% */
+.benefits-titl {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
 
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-/* NAVY BLUE */
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  /* NAVY BLUE */
 
-    color: #2E2F42;}
+  color: #2e2f42;
+}
 
-.benefits-list {}
+.benefits-list {
+}
 
-.benefits-item {}
+.benefits-item {
+}
 
 /*секція4*/
 
-.team {background-color: #F4F4FD;}
+.team {
+  background-color: #f4f4fd;
+}
 
-.team-titl {font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    /* identical to box height, or 111% */
+.team-titl {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
 
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 
-    /* NAVY BLUE */
+  /* NAVY BLUE */
 
-    color: #2E2F42}
+  color: #2e2f42;
+}
 
-.team-list {}
+.team-list {
+}
 
-.team-item {background-color: #FFFFFF;}
+.team-item {
+  background-color: #ffffff;
+}
 
-.team-name {font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    /* identical to box height, or 120% */
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
 
-    text-align: center;
-    letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
 
-    /* NAVY BLUE */
+  /* NAVY BLUE */
 
-    color: #2E2F42;}
+  color: #2e2f42;
+}
 
-.team-position {font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    /* identical to box height, or 150% */
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
 
-    text-align: center;
-    letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
 
-    /* SLATE */
+  /* SLATE */
 
-    color: #434455;}
+  color: #434455;
+}
 
-    .footer{font-family: "Raleway", sans-serif;
-             background-color:#2e2f42;}        
-    
-        .footer-logo-web {font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            /* identical to box height, or 117% */
-        
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-        
-            /* IRIS */
-        
-            color: #4D5AE5;}  
-            
-        .footer-logo-studio {font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            /* identical to box height, or 117% */
-        
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-        
-            /* CLOUD */
-        
-            color: #F4F4FD;}
-    
-        .footer-text {font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            /* or 150% */
-        
-            letter-spacing: 0.02em;
-        
-            /* CLOUD */
-        
-            color: #F4F4FD;}
+.footer {
+  font-family: 'Raleway', sans-serif;
+  background-color: #2e2f42;
+}
 
-            /*Сторінка портфоліо*/
+.footer-logo-web {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  /* identical to box height, or 117% */
 
-           .footer-logo-studio {                                     
-                          color: #f4f4fd;}
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-                .portfolio {}
-        
-              
-        
-                .filter {}
-        
-                .filter-list {}
-        
-                .filter-item {}
-        
-                .filter-btn {font-weight: 500;
-                  font-size: 16px;
-                  line-height: 1.5;
-                  /* identical to box height, or 150% */
-                
-                  display: flex;
-                  align-items: center;
-                  text-align: center;
-                  letter-spacing: 0.04em;
-                
-                  /* WHITE */
-                
-                  color: #FFFFFF;}
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+
+.footer-logo-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  /* identical to box height, or 117% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* CLOUD */
+
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+
+  color: #f4f4fd;
+}
+
+/*Сторінка портфоліо*/
+
+.footer-logo-studio {
+  color: #f4f4fd;
+}
+
+.portfolio {
+}
+
+.filter {
+}
+
+.filter-list {
+}
+
+.filter-item {
+}
+
+.filter-btn {font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #F4F4FD;
+}
+.filter-btn:hover,
+.filter-btn:focus{color:#FFFFFF ;
+background-color: #404BBF;}
