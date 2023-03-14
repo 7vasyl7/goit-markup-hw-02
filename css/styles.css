@@ -251,3 +251,32 @@ body {
             /* CLOUD */
         
             color: #F4F4FD;}
+
+            /*Сторінка портфоліо*/
+
+           .footer-logo-studio {                                     
+                          color: #f4f4fd;}
+
+                .portfolio {}
+        
+              
+        
+                .filter {}
+        
+                .filter-list {}
+        
+                .filter-item {}
+        
+                .filter-btn {font-weight: 500;
+                  font-size: 16px;
+                  line-height: 1.5;
+                  /* identical to box height, or 150% */
+                
+                  display: flex;
+                  align-items: center;
+                  text-align: center;
+                  letter-spacing: 0.04em;
+                
+                  /* WHITE */
+                
+                  color: #FFFFFF;}
