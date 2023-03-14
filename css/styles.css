@@ -1,125 +1,212 @@
-body{font-family:'Roboto', sans-serif;
-color: #434455;}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+}
 
-.list{list-style: none;}
+.list {
+  list-style: none;
+}
 
-.link{text-decoration: none;}
-.header {}
+.link {
+  text-decoration: none;
+}
+.header {
+}
 
-.header-navigation { font-family: "Raleway", sans-serif}
+.header-navigation {
+  font-family: 'Raleway', sans-serif;
+}
 
 .header-logo-web {
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-/* identical to box height, or 117% */
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  /* identical to box height, or 117% */
 
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-/* IRIS */
+  /* IRIS */
 
-color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .header-logo-studio {
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.header-address {
+  font-style: normal;
+}
+.header-list {
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.header-item:hover {
+  color: #404bbf;
+}
+.header-item:focus {
+  color: #404bbf;
+}
+
+.header-contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-contact:hover {
+  color: #404bbf;
+}
+.header-contact:hover {
+  color: #404bbf;
+}
+/*секція2*/
+
+.vision {
+  background-color: #2e2f42;
+}
+.vision-titl {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  /* or 107% */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+
+  color: #ffffff;
+  /* NAVY BLUE */
+
+  background-color: #2e2f42;
+}
+.visionstrategy-list {
+}
+
+.visionstrategy-item {
+}
+
+.visionstrategy-titl {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+
+.visionstrategy-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+
+.vision-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.vision-btn:hover {
+  color: #404bbf;
+}
+.vision-btn:focus {
+  color: #404bbf;
+}
+/*секція 3*/
+.benefits {}
+
+.benefits-titl {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 /* NAVY BLUE */
 
-color: #2E2F42;
-}
-.header-address{font-style: normal}
-.header-list {}
+    color: #2E2F42;}
 
-.header-item {font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    /* identical to box height, or 150% */
+.benefits-list {}
 
+.benefits-item {}
+
+/*секція4*/
+
+.team {}
+
+.team-titl {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42}
+
+.team-list {}
+
+.team-item {}
+
+.team-name {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    text-align: center;
     letter-spacing: 0.02em;
 
     /* NAVY BLUE */
 
     color: #2E2F42;}
 
-.header-mail {    
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        /* identical to box height, or 150% */
-    
-        letter-spacing: 0.02em;             
-        color: #434455}
-
-.header-phone {    
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        /* identical to box height, or 150% */
-    
-        letter-spacing: 0.02em;          
-        color: #434455;}
-
-
-        .vision {background-color: #2E2F42;
-}
-.vision-titl {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-/* or 107% */
-text-align: center;
-letter-spacing: 0.02em;
-
-
-
-/* WHITE */
-
-color: #FFFFFF;
-/* NAVY BLUE */
-
-background-color: #2E2F42;
-
-}
-.visionstrategy-list {}
-
-
-.visionstrategy-item {}
-
-.visionstrategy-titl {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-/* identical to box height, or 120% */
-
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;}
-
-.visionstrategy-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-/* or 150% */
-
-letter-spacing: 0.02em;
-
-/* SLATE */
-
-color: #434455;
-}
-
-
-.vision-btn {font-family:"Roboto", sans-serif;
-     font-weight: 500;
+.team-position {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */ 
-       color: #FFFFFF;       
-       letter-spacing: 0.04em;
-       background-color: #4D5AE5;
-       cursor: pointer;
-}
-.vision-btn:hover {color:#404bbf}
-.vision-btn:focus {color: #404bbf}
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: #434455;}
+
+    .footer{background-color:#2e2f42;}
