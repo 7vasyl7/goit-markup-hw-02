@@ -23,14 +23,10 @@ body {
 /**-------------------Шаблони шрифтів-------------*/
 /*стилі лого*/
 .styles-logo{
-    font-family: 'Raleway',
-      sans-serif;
-    font-style: normal;
+    font-family: 'Raleway',sans-serif;  
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;     
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -54,8 +50,6 @@ body {
 }
 
 /**--------------HEADER-------------*/
-
-.header-logo {}
 
 .header-logo-web {  
   color:var(--color-logo-web,
@@ -169,7 +163,7 @@ body {
 
 /**-----------FOOTER--------------*/
 .footer {
-  font-family: 'Raleway', sans-serif;
+  /*font-family: */
   background-color: #2e2f42;
 }
 
